@@ -13,6 +13,10 @@
             </h3>
 
             <div class="course-meta">
+              {% if course.school %}
+                <span class="course-school">{{ course.school }}</span>
+              {% endif %}
+
               {% if course.term %}
                 <span class="course-term">{{ course.term }}</span>
               {% endif %}

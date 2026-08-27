@@ -1,16 +1,14 @@
-/*****************************
- * Teachings/Courses styles
- *****************************/
-
 .courses {
   margin-top: 30px;
+  color: var(--global-text-color);
 }
 
 .year {
   margin-top: 40px;
   margin-bottom: 20px;
-  border-bottom: 1px solid var(--global-divider-color);
   padding-bottom: 10px;
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .course-list {
@@ -20,37 +18,48 @@
 }
 
 .course-item {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 5px;
   padding: 15px;
   background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 5px;
   transition: transform 0.2s ease-in-out;
 
   &:hover {
-    transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
   }
 }
-
 .course-title {
   margin-top: 0;
   margin-bottom: 10px;
+
+  a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+    }
+  }
 }
 
 .course-meta {
-  font-size: 0.9rem;
-  color: var(--global-text-color-light);
   margin-bottom: 10px;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
 }
 
+.course-school,
 .course-term,
 .course-instructor {
   margin-right: 15px;
+  color: var(--global-text-color-light);
 }
 
 .course-description {
-  font-size: 0.9rem;
   margin-bottom: 15px;
+  color: var(--global-text-color);
+  font-size: 0.9rem;
 
   p {
     margin-bottom: 0;
@@ -61,17 +70,8 @@
   margin-bottom: 30px;
 }
 
-.course-schedule {
-  margin-bottom: 30px;
-}
-
-.schedule-description {
-  p {
-    margin-bottom: 0;
+@media (max-width: 575px) {
+  .course-list {
+    grid-template-columns: 1fr;
   }
-}
-
-.schedule-materials {
-  padding-left: 18px;
-  margin-bottom: 0;
 }
