@@ -16,6 +16,18 @@
   }
 }
 
+@media (max-width: 575px) {
+  .profile {
+    width: 55%;
+    margin-top: 0.5rem;
+
+    img {
+      top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
 .about-introduction {
   text-align: justify;
   hyphens: auto;
