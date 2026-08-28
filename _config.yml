@@ -4,8 +4,7 @@ first_name: Xiaotian
 middle_name:
 last_name: Liu
 chinese_name: "刘啸天"
-contact_note: >
-  (+1) 313-467-4124
+contact_note:
 description: >
   Academic website of Xiaotian Liu, a PhD candidate at Georgia Institute of Technology studying operations management and artificial intelligence.
 keywords: operations management, artificial intelligence, reinforcement learning, inventory control

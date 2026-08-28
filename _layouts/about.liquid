@@ -62,7 +62,9 @@ layout: default
     CV
   </a>
 </div>
-            <div class="contact-note">{{ site.contact_note }}</div>
+            {% if site.contact_note %}
+  <div class="contact-note">{{ site.contact_note }}</div>
+{% endif %}
           </div>
         {% endif %}
 
