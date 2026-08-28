@@ -37,9 +37,9 @@
           border: 1px solid var(--global-text-color);
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
-          }
+  color: var(--global-text-color-light);
+  border-color: var(--global-text-color-light);
+}
         }
       }
 
