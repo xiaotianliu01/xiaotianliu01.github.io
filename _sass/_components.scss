@@ -96,3 +96,9 @@
     white-space: nowrap;
   }
 }
+
+@media (max-width: 575px) {
+  .post > .post-header {
+    padding-bottom: 2.5rem;
+  }
+}
