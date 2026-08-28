@@ -3,7 +3,7 @@
 }
 
 .profile.float-right {
-  margin-left: 1.5rem;
+  margin-left: 3rem;
 }
 
 .profile.float-left {
@@ -12,13 +12,13 @@
 
 @media (min-width: 576px) {
   .profile {
-    width: 22%;
+    width: 20%;
   }
 }
 
 @media (max-width: 575px) {
   .profile {
-    width: 70%;
+    width: 90%;
     margin-top: 0.5rem;
 
     img {
