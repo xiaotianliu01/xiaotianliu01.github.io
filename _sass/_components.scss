@@ -40,28 +40,35 @@
 .social {
   text-align: center;
 
-  .contact-icons {
-    font-size: 1.5rem;
+  .contact-links {
+  font-size: 0.85rem;
+  white-space: nowrap;
 
-    a {
-      margin: 0 10px;
+  a {
+    margin: 0 0.3rem;
+    color: var(--global-text-color);
+    text-decoration: none;
 
-      i::before {
-        color: var(--global-text-color);
-        transition: color 0.2s ease-in-out;
-      }
-
-      &:hover {
-        text-decoration: none;
-
-        i::before {
-          color: var(--global-text-color-light);
-        }
-      }
+    &:hover {
+      color: var(--global-text-color-light);
+      text-decoration: none;
     }
   }
 
-  .contact-note {
-    font-size: 0.8rem;
+  .separator {
+    color: var(--global-text-color-light);
   }
+}
+
+  .contact-note {
+  color: var(--global-text-color);
+  font-size: 0.8rem;
+
+  a,
+  a[href^="tel"],
+  a[x-apple-data-detectors] {
+    color: var(--global-text-color) !important;
+    text-decoration: none !important;
+  }
+}
 }

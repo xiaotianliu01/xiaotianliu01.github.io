@@ -38,23 +38,30 @@ layout: default
 
         {% if page.social %}
           <div class="social" style="text-align: center; margin-top: 15px;">
-            <div class="contact-icons">
-              <a href="mailto:{{ site.data.socials.email }}" title="Email" aria-label="Email">
-                <i class="fa-solid fa-envelope"></i>
-              </a>
-              <a
-                href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
-                title="Google Scholar"
-                aria-label="Google Scholar"
-                target="_blank"
-                rel="noopener"
-              >
-                <i class="ai ai-google-scholar"></i>
-              </a>
-              <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" aria-label="CV" target="_blank" rel="noopener">
-                <i class="ai ai-cv"></i>
-              </a>
-            </div>
+            <div class="contact-links">
+  <a href="mailto:{{ site.data.socials.email }}" title="Email">Email</a>
+  <span class="separator">·</span>
+
+  <a
+    href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+    title="Google Scholar"
+    target="_blank"
+    rel="noopener"
+  >
+    Scholar
+  </a>
+
+  <span class="separator">·</span>
+
+  <a
+    href="{{ site.data.socials.cv_pdf | relative_url }}"
+    title="CV"
+    target="_blank"
+    rel="noopener"
+  >
+    CV
+  </a>
+</div>
             <div class="contact-note">{{ site.contact_note }}</div>
           </div>
         {% endif %}
