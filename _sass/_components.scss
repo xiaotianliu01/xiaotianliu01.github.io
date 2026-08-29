@@ -31,10 +31,11 @@
 }
 
 .about-introduction {
-  text-align: justify;
-  hyphens: auto;
-  overflow-wrap: break-word;
-  -webkit-hyphens: auto;
+  text-align: left;
+  hyphens: none;
+  -webkit-hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .social {
