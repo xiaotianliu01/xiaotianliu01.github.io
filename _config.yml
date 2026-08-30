@@ -12,7 +12,7 @@ lang: en
 icon: /assets/img/venn-diagram.png
 
 # Set these two values before publishing under a custom domain or project path.
-url: "https://xiaotianliu01.github.io"
+url: "https://xiaotianliu.org"
 baseurl: ""
 
 # Layout
