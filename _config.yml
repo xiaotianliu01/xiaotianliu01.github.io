@@ -9,7 +9,7 @@ description: >
   Academic website of Xiaotian Liu, a PhD candidate at Georgia Institute of Technology studying operations management and artificial intelligence.
 keywords: operations management, artificial intelligence, reinforcement learning, inventory control
 lang: en
-icon: 😊
+icon: /assets/img/venn-diagram.png
 
 # Set these two values before publishing under a custom domain or project path.
 url: "https://xiaotianliu01.github.io"
