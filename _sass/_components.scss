@@ -36,6 +36,12 @@
   -webkit-hyphens: none;
   word-break: normal;
   overflow-wrap: normal;
+  line-height: 1.7;
+  strong {
+    font-size: inherit;
+    font-weight: 600;
+    line-height: inherit;
+  }
 }
 
 .social {
