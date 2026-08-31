@@ -107,6 +107,11 @@
 @media (min-width: 576px) {
   .profile img {
     position: relative;
-    top: 5px;
+    top: 6px;
   }
+}
+
+.profile img {
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
