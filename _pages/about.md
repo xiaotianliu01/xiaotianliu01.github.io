@@ -23,6 +23,6 @@ announcements:
 
 I am a PhD candidate in the H. Milton Stewart School of Industrial and Systems Engineering at the **Georgia Institute of Technology**, advised by Prof. Christos Alexopoulos and Prof. Edwin Romeijn. Before joining Georgia Tech, I received a B.S. in Electronics Engineering from the School of Electronics Engineering and Computer Science at **Peking University** in 2022 and a B.S. in Management from the Guanghua School of Management at **Peking University** in 2022.
 
-My research lies at the intersection of **operations management** and **artificial intelligence**. I study deep reinforcement learning methods for complex inventory control problems with real-world features, including multi-echelon networks and nonlinear inventory dynamics. I also work on applying machine learning and large language models to broader operations management problems.
+My research focuses on pushing the frontier of **operations management** (OM) through **deep neural models**. I investigate how to effectively train deep neural networks (DNNs) for modern OM problems involving high-dimensional data, large-scale systems, and nonlinear dynamics. I also work on combining DNNs with operational knowledge and exploiting advanced DNN architectures, such as transformers, for intelligent and reliable OM decision-making.
 
 **I expect to graduate in 2027. I am currently on the job market and am seeking an academic tenure-track position in operations management.**
