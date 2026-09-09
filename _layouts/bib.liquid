@@ -30,6 +30,7 @@
       {% endif %}
     </div>
 
+    {% assign venue = '' %}
     {% if entry.type == 'article' %}
       {% capture venue %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif entry.type == 'inproceedings' %}
@@ -39,8 +40,9 @@
       {% capture venue %}{{ venue }}&nbsp;({{ entry.additional_info }}){% endcapture %}
     {% endif %}
 
+    {% assign venue_text = venue | strip %}
     <div class="periodical publication-meta">
-      {{ venue | strip }}, {{ entry.year }}
+      {% if venue_text != '' %}{{ venue_text }}, {% endif %}{{ entry.year }}
       <span class="links">
         {% if entry.doi %}
           <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">DOI</a>
