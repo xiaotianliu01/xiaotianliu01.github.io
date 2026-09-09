@@ -1,7 +1,7 @@
 ---
 ---
 <div class="row">
-  <div id="{{ entry.key }}" class="col-sm-10">
+  <div id="{{ entry.key }}" class="col-sm-12">
     <div class="title">{{ entry.title }}</div>
 
     <div class="author">
@@ -36,7 +36,7 @@
       {% capture venue %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% endif %}
     {% if entry.additional_info %}
-      {% capture venue %}{{ venue }} ({{ entry.additional_info }}){% endcapture %}
+      {% capture venue %}{{ venue }}&nbsp;({{ entry.additional_info }}){% endcapture %}
     {% endif %}
 
     <div class="periodical publication-meta">
