@@ -57,7 +57,13 @@
     </div>
 
     {% if entry.note %}
-      <div class="publication-note"><span class="publication-note-marker" aria-hidden="true">•</span> {{ entry.note | strip }}</div>
-    {% endif %}
+  {% assign publication_notes = entry.note | split: '||' %}
+  {% for publication_note in publication_notes %}
+    <div class="publication-note">
+      <span class="publication-note-marker" aria-hidden="true">•</span>
+      {{ publication_note | strip }}
+    </div>
+  {% endfor %}
+{% endif %}
   </div>
 </div>
